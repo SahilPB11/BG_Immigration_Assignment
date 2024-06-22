@@ -4,18 +4,20 @@ const Footer = () => {
   return (
     <div>
       <footer className="font-sans tracking-wide bg-black px-8 py-12 mt-7">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
           <div>
-            <a href="javascript:void(0)">
-              <img
-                src="https://readymadeui.com/readymadeui-white.svg"
-                alt="logo"
-                className="w-44"
-              />
+            <a href="#">
+              <p className="text-2xl font-bold text-white">BG Travel & Tourism</p>
             </a>
+            <p className="mt-4 text-gray-300 text-sm">
+              Your Travel Company is committed to providing unforgettable travel
+              experiences. From exotic beach vacations to adventurous mountain
+              treks, we offer personalized travel packages to suit all
+              preferences.
+            </p>
             <ul className="mt-10 flex space-x-5">
               <li>
-                <a href="javascript:void(0)">
+                <a href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -31,7 +33,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0)">
+                <a href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -47,7 +49,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0)">
+                <a href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -59,291 +61,101 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0)">
+                <a href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     className="fill-gray-300 hover:fill-white w-7 h-7"
                     viewBox="0 0 24 24"
                   >
-                    <path d="M22.92 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.83 4.5 17.72 4 16.46 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98-3.56-.18-6.73-1.89-8.84-4.48-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.9 20.29 6.16 21 8.58 21c7.88 0 12.21-6.54 12.21-12.21 0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z" />
+                    <path d="M22.92 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.83 4.5 17.72 4 16.46 4c-2.4 0-4.35 1.95-4.35 4.35 0 .34.04.67.11.99-3.62-.18-6.83-1.91-8.98-4.54-.37.63-.59 1.37-.59 2.16 0 1.49.76 2.81 1.92 3.58-.7-.02-1.36-.21-1.94-.53v.05c0 2.08 1.48 3.82 3.44 4.21-.36.1-.75.15-1.14.15-.28 0-.55-.03-.82-.08.55 1.72 2.14 2.97 4.02 3-.8.63-1.8 1-2.89 1-.19 0-.37-.01-.55-.03C5.83 19.7 7.55 20.5 9.42 20.5c6.88 0 10.65-5.7 10.65-10.65v-.48c.73-.53 1.37-1.2 1.87-1.96z" />
                   </svg>
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="text-white font-semibold text-lg relative max-sm:cursor-pointer">
-              Services{" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16px"
-                height="16px"
-                className="sm:hidden absolute right-0 top-1 fill-[#d6d6d6]"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M12 16a1 1 0 0 1-.71-.29l-6-6a1 1 0 0 1 1.42-1.42l5.29 5.3 5.29-5.29a1 1 0 0 1 1.41 1.41l-6 6a1 1 0 0 1-.7.29z"
-                  data-name={16}
-                  data-original="#000000"
-                />
-              </svg>
-            </h4>
-            <ul className="mt-6 space-y-5">
+            <h2 className="text-white font-semibold">Contact Information</h2>
+            <ul className="mt-4 space-y-4">
               <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  Web Development
+                <a href="#" className="text-gray-300 hover:underline">
+                  123 Travel Lane, Adventure City, Country
                 </a>
               </li>
               <li>
                 <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
+                  href="tel:+1234567890"
+                  className="text-gray-300 hover:underline"
                 >
-                  Pricing
+                  +1 234 567 890
                 </a>
               </li>
               <li>
                 <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
+                  href="mailto:info@yourtravelcompany.com"
+                  className="text-gray-300 hover:underline"
                 >
-                  Support
-                </a>
-              </li>
-              <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  Client Portal
-                </a>
-              </li>
-              <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  Resources
+                  info@yourtravelcompany.com
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="text-white font-semibold text-lg relative max-sm:cursor-pointer">
-              Platforms{" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16px"
-                height="16px"
-                className="sm:hidden absolute right-0 top-1 fill-[#d6d6d6]"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M12 16a1 1 0 0 1-.71-.29l-6-6a1 1 0 0 1 1.42-1.42l5.29 5.3 5.29-5.29a1 1 0 0 1 1.41 1.41l-6 6a1 1 0 0 1-.7.29z"
-                  data-name={16}
-                  data-original="#000000"
-                />
-              </svg>
-            </h4>
-            <ul className="space-y-5 mt-6 max-sm:hidden">
+            <h2 className="text-white font-semibold">Quick Links</h2>
+            <ul className="mt-4 space-y-4">
               <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  Hubspot
+                <a href="#" className="text-gray-300 hover:underline">
+                  Home
                 </a>
               </li>
               <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  Integration Services
+                <a href="#" className="text-gray-300 hover:underline">
+                  Destinations
                 </a>
               </li>
               <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  Marketing Glossar
+                <a href="#" className="text-gray-300 hover:underline">
+                  Tours
                 </a>
               </li>
               <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  UIPath
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-white font-semibold text-lg relative max-sm:cursor-pointer">
-              Company{" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16px"
-                height="16px"
-                className="sm:hidden absolute right-0 top-1 fill-[#d6d6d6]"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M12 16a1 1 0 0 1-.71-.29l-6-6a1 1 0 0 1 1.42-1.42l5.29 5.3 5.29-5.29a1 1 0 0 1 1.41 1.41l-6 6a1 1 0 0 1-.7.29z"
-                  data-name={16}
-                  data-original="#000000"
-                />
-              </svg>
-            </h4>
-            <ul className="space-y-5 mt-6 max-sm:hidden">
-              <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  About us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
+                <a href="#" className="text-gray-300 hover:underline">
                   Blog
                 </a>
               </li>
               <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  Events
+                <a href="#" className="text-gray-300 hover:underline">
+                  Contact
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="text-white font-semibold text-lg relative max-sm:cursor-pointer">
-              Additional{" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16px"
-                height="16px"
-                className="sm:hidden absolute right-0 top-1 fill-[#d6d6d6]"
-                viewBox="0 0 24 24"
+            <h2 className="text-white font-semibold">Newsletter</h2>
+            <form action="#" className="mt-4">
+              <label
+                className="block text-gray-300 mb-2"
+                htmlFor="newsletter-email"
               >
-                <path
-                  d="M12 16a1 1 0 0 1-.71-.29l-6-6a1 1 0 0 1 1.42-1.42l5.29 5.3 5.29-5.29a1 1 0 0 1 1.41 1.41l-6 6a1 1 0 0 1-.7.29z"
-                  data-name={16}
-                  data-original="#000000"
-                />
-              </svg>
-            </h4>
-            <ul className="space-y-5 mt-6 max-sm:hidden">
-              <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  Partners
-                </a>
-              </li>
-              <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  Sitemap
-                </a>
-              </li>
-              <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-white text-gray-300 text-sm"
-                >
-                  News
-                </a>
-              </li>
-            </ul>
+                Sign up for travel tips and special offers
+              </label>
+              <input
+                type="email"
+                id="newsletter-email"
+                placeholder="Your email"
+                className="w-full px-3 py-2 text-black rounded focus:outline-none"
+              />
+              <button
+                type="submit"
+                className="w-full mt-3 bg-white text-black px-3 py-2 rounded hover:bg-gray-300"
+              >
+                Subscribe
+              </button>
+            </form>
           </div>
         </div>
-        <hr className="my-10 border-gray-400" />
-        <div className="flex flex-wrap max-md:flex-col gap-4">
-          <ul className="md:flex md:space-x-6 max-md:space-y-2">
-            <li>
-              <a
-                href="javascript:void(0)"
-                className="hover:text-white text-gray-300 text-sm"
-              >
-                Terms of Service
-              </a>
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                className="hover:text-white text-gray-300 text-sm"
-              >
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                className="hover:text-white text-gray-300 text-sm"
-              >
-                Security
-              </a>
-            </li>
-          </ul>
-          <p className="text-gray-300 text-sm md:ml-auto">
-            Copyright © 2023
-            <a
-              href="https://readymadeui.com/"
-              target="_blank"
-              className="hover:underline mx-1"
-            >
-              ReadymadeUI
-            </a>
-            All Rights Reserved.
-          </p>
+        <div className="mt-12 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm">
+          &copy; 2024 Your Travel Company. All rights reserved.
         </div>
       </footer>
     </div>
