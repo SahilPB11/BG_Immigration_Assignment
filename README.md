@@ -20,7 +20,6 @@ This project brings to life a user-friendly travel & tourism website complete wi
 * **Routing:** React Router DOM
 * **Icon Library:** React Icons
 * **Build Tool:** Vite
-* **Linting:** ESLint
 
 ### 3. Setting Up the Project 💻
 
